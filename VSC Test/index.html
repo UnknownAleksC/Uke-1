@@ -11,14 +11,13 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
-    <button>Ingen layout</button>
-    <button>Vertikal layout</button>
-    <button>Horisontal layout</button>
-    <button>Grid layout</button>
+    <button onclick="noLayout()">Ingen layout</button>
+    <button onclick="horizontalLayout()">Vertikal layout</button>
+    <button onclick="verticalLayout()">Horisontal layout</button>
+    <button onclick="gridLayout()">Grid layout</button>
 
     <h1>Eksempel 1</h1>
-    <div class="cards">
+    <div id="cards">
         <div class="card">
             <div class="header green" onclick="show1()">Verktøy</div>
             <div id="popUp1"></div>
