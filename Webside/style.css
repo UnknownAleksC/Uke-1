@@ -14,14 +14,21 @@
     text-align:center;
     text-size-adjust: 100px;
     margin: 5%;
-    color:#3385ff;
+    color:#3881d4
+}
+
+.text2 {
+    text-align:center;
+    text-size-adjust: 100px;
+    margin: 5%;
+    color:#a82037
 }
 
 .info {
     display: flex;
     flex-direction: column;
     margin-left: -2%;
-    margin-top: -0.5%;
+    margin-top: -10%;
     font-size: 25px;
     border: 10px; color: #ecf2fa;
 }
